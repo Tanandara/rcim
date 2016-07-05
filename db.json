@@ -1,0 +1,206 @@
+{
+  "general_journals" :
+  [
+    {
+      "general_id" : "59070500001",
+      "general_date" : "Tue Jul 05 2016 10:12:48 GMT+0700 (SE Asia Standard Time)",
+      "item_detail" : "ซื้อโต๊ะ",
+      "drcr" : "1",
+      "amount" : "1000.05",
+      "ledger_id" : "X05",
+      "campus_id" : "1"
+    },
+    {
+      "general_id" : "59070500002",
+      "general_date" : "Tue Jul 05 2016 10:12:48 GMT+0700 (SE Asia Standard Time)",
+      "item_detail" : "ซื้อเก้าอี้",
+      "drcr" : "1",
+      "amount" : "1000.05",
+      "ledger_id" : "X06",
+      "campus_id" : "1"
+    },
+    {
+      "general_id" : "59070500003",
+      "general_date" : "Tue Jul 05 2016 10:12:48 GMT+0700 (SE Asia Standard Time)",
+      "item_detail" : "เงินสด",
+      "drcr" : "2",
+      "amount" : "2000.10",
+      "ledger_id" : "101",
+      "campus_id" : "1"
+    },
+    {
+      "general_id" : "59070500004",
+      "general_date" : "Tue Jul 05 2016 10:12:48 GMT+0700 (SE Asia Standard Time)",
+      "item_detail" : "เงินสด",
+      "drcr" : "1",
+      "amount" : "100.53",
+      "ledger_id" : "101",
+      "campus_id" : "1"
+    },
+    {
+      "general_id" : "59070500005",
+      "general_date" : "Tue Jul 05 2016 10:12:48 GMT+0700 (SE Asia Standard Time)",
+      "item_detail" : "ขายปากกา",
+      "drcr" : "2",
+      "amount" : "100.53",
+      "ledger_id" : "X09",
+      "campus_id" : "1"
+    }
+  ],
+  "journals":
+  [
+    {
+      "general_date":"1 พฤษภาคม 2559",
+      "item_count":"13",
+      "amount":"5502.49 บาท"
+    },
+    {
+      "general_date":"2 พฤษภาคม 2559",
+      "item_count":"16",
+      "amount":"1337.37 บาท"
+    },
+    {
+      "general_date":"3 พฤษภาคม 2559",
+      "item_count":"5",
+      "amount":"999.59 บาท"
+    },
+    {
+      "general_date":"4 พฤษภาคม 2559",
+      "item_count":"2",
+      "amount":"111.41 บาท"
+    },
+    {
+      "general_date":"5 พฤษภาคม 2559",
+      "item_count":"17",
+      "amount":"98.87 บาท"
+    }
+  ],
+  "ledgers":
+  [
+    {
+      "ledger_id":"101",
+      "ledger_name":"เงินสด",
+      "coa":"สินทรัพย์"
+    },
+    {
+      "ledger_id":"108",
+      "ledger_name":"ค่าใช้จ่ายรอตัดบัญชี",
+      "coa":"สินทรัพย์"
+    },
+    {
+      "ledger_id":"110",
+      "ledger_name":"สินทรัพอื่นๆ",
+      "coa":"สินทรัพย์"
+    },
+    {
+      "ledger_id":"118",
+      "ledger_name":"บัญชีลูกหนี้",
+      "coa":"สินทรัพย์"
+    },
+    {
+      "ledger_id":"201",
+      "ledger_name":"บัญชีเจ้าหนี้",
+      "coa":"หนี้สิน"
+    },
+    {
+      "ledger_id":"210",
+      "ledger_name":"ภาษีค้างจ่าย",
+      "coa":"หนี้สิน"
+    },
+    {
+      "ledger_id":"211",
+      "ledger_name":"เจ้าหนี้พันธบัตร",
+      "coa":"หนี้สิน"
+    },
+    {
+      "ledger_id":"212",
+      "ledger_name":"เงินเดือนและค่าจ้างเจ้าหนี้",
+      "coa":"หนี้สิน"
+    },
+    {
+      "ledger_id":"311",
+      "ledger_name":"หุ้นสามัญ",
+      "coa":"ส่วนเจ้าของ"
+    },
+    {
+      "ledger_id":"320",
+      "ledger_name":"กำไรสะสม",
+      "coa":"ส่วนเจ้าของ"
+    },
+    {
+      "ledger_id":"400",
+      "ledger_name":"รายได้ค่าเช่า",
+      "coa":"รายได้"
+    },
+    {
+      "ledger_id":"420",
+      "ledger_name":"รายได้ดอกเบี้ย",
+      "coa":"รายได้"
+    },
+    {
+      "ledger_id":"570",
+      "ledger_name":"ค่าใช้จ่ายในสำนักงาน",
+      "coa":"ค่าใช้จ่าย"
+    },
+    {
+      "ledger_id":"597",
+      "ledger_name":"แรงงานและสวัสดิการค่าใช้จ่าย",
+      "coa":"ค่าใช้จ่าย"
+    }
+
+  ],
+  "ledger_detail":
+  [
+    {
+      "ledger_id":"101",
+      "date": "1 พฤษภาคม 2559",
+      "ledger_detail":"รายได้ค่าบริการ",
+      "ledger_detail_id":"401",
+      "drcr":"1",
+      "amount": "1500"
+    },
+    {
+      "ledger_id":"101",
+      "date": "1 พฤษภาคม 2559",
+      "ledger_detail":"ขายเก้าอี้",
+      "ledger_detail_id":"X05",
+      "drcr":"1",
+      "amount": "145"
+    },
+    {
+      "ledger_id":"101",
+      "date": "1 พฤษภาคม 2559",
+      "ledger_detail":"ขายโต๊ะ",
+      "ledger_detail_id":"X06",
+      "drcr":"1",
+      "amount": "1200"
+    },
+    {
+      "ledger_id":"101",
+      "date": "1 พฤษภาคม 2559",
+      "ledger_detail":"ซื้อปากกา",
+      "ledger_detail_id":"X99",
+      "drcr":"2",
+      "amount": "200"
+    },
+    {
+      "ledger_id":"101",
+      "date": "2 พฤษภาคม 2559",
+      "ledger_detail":"ขายกางเกง",
+      "ledger_detail_id":"X09",
+      "drcr":"1",
+      "amount": "1900"
+    },
+    {
+      "ledger_id":"101",
+      "date": "3 พฤษภาคม 2559",
+      "ledger_detail":"ขายทีวี",
+      "ledger_detail_id":"X71",
+      "drcr":"1",
+      "amount": "900"
+    }
+  ]
+
+
+
+}
