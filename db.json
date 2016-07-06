@@ -199,6 +199,167 @@
       "drcr":"1",
       "amount": "900"
     }
+  ],
+  "trial_balance_month":
+  [
+    {
+        "month":"มกราคม 2559",
+        "amount":"55463"
+    },
+    {
+        "month":"กุมภาพันธ์ 2559",
+        "amount":"7878"
+    },
+    {
+        "month":"มีนาคม 2559",
+        "amount":"56498"
+    },
+    {
+        "month":"เมษายน 2559",
+        "amount":"50009"
+    },
+    {
+        "month":"พฤษภาคม 2559",
+        "amount":"120000"
+    },
+    {
+        "month":"มิถุนายน 2559",
+        "amount":"68743.12"
+    },
+    {
+        "month":"กรกฎาคม 2559",
+        "amount":"5463.47"
+    }
+
+  ],
+  "trial_balance_year":
+  [
+    {
+        "year":"ปี 2551",
+        "amount":"5000000"
+    },
+    {
+        "year":"ปี 2552",
+        "amount":"6000300"
+    },
+    {
+        "year":"ปี 2553",
+        "amount":"9000500"
+    },
+    {
+        "year":"ปี 2554",
+        "amount":"1010000"
+    },
+    {
+        "year":"ปี 2555",
+        "amount":"9009000"
+    },
+    {
+        "year":"ปี 2556",
+        "amount":"5070000"
+    },
+    {
+        "year":"ปี 2557",
+        "amount":"6600000"
+    },
+    {
+        "year":"ปี 2558",
+        "amount":"3000000"
+    }
+
+  ],
+  "trial_balance":
+  [
+    {
+      "ledger_id":"101",
+      "ledger_name":"เงินสด",
+      "drcr":"1",
+      "amount":"254000"
+    },
+    {
+      "ledger_id":"102",
+      "ledger_name":"ลูกหนี้",
+      "drcr":"1",
+      "amount":"50000"
+    },
+    {
+      "ledger_id":"103",
+      "ledger_name":"วัสดุสำนักงาน",
+      "drcr":"1",
+      "amount":"10000"
+    },
+    {
+      "ledger_id":"104",
+      "ledger_name":"อุปกรณ์สำนักงาน",
+      "drcr":"1",
+      "amount":"54000"
+    },
+    {
+      "ledger_id":"105",
+      "ledger_name":"เครื่องตกแต่ง",
+      "drcr":"1",
+      "amount":"100000"
+    },
+    {
+      "ledger_id":"106",
+      "ledger_name":"อาคาร",
+      "drcr":"1",
+      "amount":"600000"
+    },
+    {
+      "ledger_id":"201",
+      "ledger_name":"เจ้าหนี้",
+      "drcr":"2",
+      "amount":"60000"
+    },
+    {
+      "ledger_id":"202",
+      "ledger_name":"เงินกู้",
+      "drcr":"2",
+      "amount":"200000"
+    },
+    {
+      "ledger_id":"301",
+      "ledger_name":"ทุน",
+      "drcr":"2",
+      "amount":"500000"
+    },
+    {
+      "ledger_id":"302",
+      "ledger_name":"ถอนใช้ส่วนตัว",
+      "drcr":"1",
+      "amount":"7000"
+    },
+    {
+      "ledger_id":"401",
+      "ledger_name":"รายได้ค่าบริการ",
+      "drcr":"2",
+      "amount":"400000"
+    },
+    {
+      "ledger_id":"501",
+      "ledger_name":"ค่าเช่า",
+      "drcr":"1",
+      "amount":"20000"
+    },
+    {
+      "ledger_id":"502",
+      "ledger_name":"ค่าโทรศัพท์",
+      "drcr":"1",
+      "amount":"5000"
+    },
+    {
+      "ledger_id":"503",
+      "ledger_name":"ค่าน้ำค่าไฟ",
+      "drcr":"1",
+      "amount":"20000"
+    },
+    {
+      "ledger_id":"504",
+      "ledger_name":"เงินเดือน",
+      "drcr":"1",
+      "amount":"40000"
+    }
   ]
 
 

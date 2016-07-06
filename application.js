@@ -10,4 +10,5 @@ angular.module("Main",
 "dashboard",
 "tutorialspointUploadFile",
 "general_journals",
-"general_ledgers"]);
+"general_ledgers",
+"trial_balance"]);
