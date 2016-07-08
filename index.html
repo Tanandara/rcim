@@ -46,6 +46,26 @@
 	li,p,h2,h3,h1,h4,div{
 		font-family: 'cloud' !important;
 	}
+	.page-transition {
+	display: block !important;
+
+	}
+	.page-transition:before {
+	  display: block;
+
+	  left: 0;
+	  top: -1px;
+	  width: 0;
+	  height: 3px;
+	  background-color: red;
+	  content: "";
+	  transition: width 0.1s;
+	  box-shadow: 1px 1px 25px black;
+	}
+	.page-transition.loading:before{
+	  width: 100%;
+	  transition: width 2.5s;
+	}
 </style>
 <!--//Metis Menu -->
 </head>
@@ -108,7 +128,7 @@
 		</div>
 		<!--left-fixed -navigation-->
 		<!-- header-starts -->
-		<div class="sticky-header header-section ">
+		<div class="sticky-header header-section page-transition">
 			<div class="header-left">
 				<!--logo -->
 				<div class="logo" style="background:#f2dede;">
