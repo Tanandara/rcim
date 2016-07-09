@@ -1,0 +1,68 @@
+<script src="myfunction.js" ></script>
+...
+...
+...
+
+
+
+<script src="/modules/etc/angular-fileupload.js" ></script>
+<script src="/modules/core/core.client.module.js" ></script>
+<script src="/modules/core/config/core.client.routes.js" ></script>
+
+
+
+
+<script src="/modules/general_journals/general_journals.client.module.js" ></script>
+<script src="/modules/general_journals/config/general_journals.client.routes.js" ></script>
+<script src="/modules/general_journals/controllers/journalizing.client.controller.js" ></script>
+<script src="/modules/general_journals/controllers/journals.client.controller.js" ></script>
+
+
+<script src="/modules/general_ledgers/general_ledgers.client.module.js" ></script>
+<script src="/modules/general_ledgers/config/general_ledgers.client.routes.js" ></script>
+<script src="/modules/general_ledgers/controllers/ledgers.client.controller.js" ></script>
+<script src="/modules/general_ledgers/controllers/ledgerdetail.client.controller.js" ></script>
+<script src="/modules/general_ledgers/controllers/addledger.client.controller.js" ></script>
+
+
+<script src="/modules/trial_balance/trial_balance.client.module.js" ></script>
+<script src="/modules/trial_balance/config/trial_balance.client.routes.js" ></script>
+<script src="/modules/trial_balance/controllers/searchtrial.client.controller.js" ></script>
+<script src="/modules/trial_balance/controllers/trialbalance.client.controller.js" ></script>
+
+
+
+
+
+
+<script src="/modules/users/users.client.module.js" ></script>
+<script src="/modules/users/config/users.client.routes.js" ></script>
+<script src="/modules/users/controllers/users.client.controller.js" ></script>
+<script src="/modules/dashboard/dashboard.client.module.js" ></script>
+<script src="/modules/dashboard/config/dashboard.client.routes.js" ></script>
+<script src="/modules/dashboard/controllers/dashboard.client.controller.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+angular.module("Main",
+['ui.router',
+"ngAnimate",
+"ui.bootstrap",
+"core",
+"users",
+"dashboard",
+"tutorialspointUploadFile",
+"general_journals",
+"general_ledgers",
+"trial_balance"]);
