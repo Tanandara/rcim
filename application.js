@@ -1,5 +1,3 @@
-"use strict";
-
 angular.module("Main",[]);
 angular.module("Main",
 ['ui.router',

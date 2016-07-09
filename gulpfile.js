@@ -21,7 +21,8 @@ gulp.task('build', function() {
         "modules/trial_balance/controllers/trialbalance.client.controller.js",
         "modules/dashboard/dashboard.client.module.js",
         "modules/dashboard/config/dashboard.client.routes.js",
-        "modules/dashboard/controllers/dashboard.client.controller.js"
+        "modules/dashboard/controllers/dashboard.client.controller.js",
+		"application.js"
       ]
         )
         .pipe(concat('tanandara.js'))
