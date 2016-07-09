@@ -5,7 +5,7 @@ function($scope,$http){
   $scope.getJournals = function(){
       $http({
         method: 'GET',
-        url: 'http://localhost:3000/journals'
+        url: $scope.dbURL + '/journals'
       }).success(function(data, status) {
         $scope.journals = data;
       });

@@ -5,7 +5,7 @@ function($scope,$http,$state){
   $scope.getLedgers = function(){
       $http({
         method: 'GET',
-        url: 'http://localhost:3000/ledgers'
+        url: $scope.dbURL + '/ledgers'
       }).success(function(data, status) {
         $scope.ledgers = data;
       });

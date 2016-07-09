@@ -17,6 +17,9 @@ angular.module("Main",
 angular.module("Main")
 .run(["$rootScope",function($rootScope){
 
+  $rootScope.dbURL = "https://rcim-json.herokuapp.com";
+  //$rootScope.dbURL = "http://localhost:3000";
+
     $rootScope
         .$on('$stateChangeStart',
             function(event, toState, toParams, fromState, fromParams){

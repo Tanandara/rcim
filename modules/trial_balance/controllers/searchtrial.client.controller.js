@@ -4,7 +4,7 @@ function($scope,$http){
   $scope.getTrialMonth = function(){
       $http({
         method: 'GET',
-        url: 'http://localhost:3000/trial_balance_month'
+        url: $scope.dbURL + '/trial_balance_month'
       }).success(function(data, status) {
         $scope.month = data;
 
@@ -15,7 +15,7 @@ function($scope,$http){
   $scope.getTrialYear = function(){
     $http({
       method: 'GET',
-      url: 'http://localhost:3000/trial_balance_year'
+      url: $scope.dbURL + '/trial_balance_year'
     }).success(function(data, status) {
       $scope.year = data;
     });

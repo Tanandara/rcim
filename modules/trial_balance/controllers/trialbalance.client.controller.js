@@ -4,9 +4,10 @@ function($scope,$http){
 
 
   $scope.getTrialBalance = function(){
+    
     $http({
       method: 'GET',
-      url: 'http://localhost:3000/trial_balance'
+      url: $scope.dbURL + '/trial_balance'
     }).success(function(data, status) {
       $scope.trial = data;
     });

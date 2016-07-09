@@ -6,7 +6,7 @@ $scope.date = new Date();
 $scope.getJournal = function(){
     $http({
       method: 'GET',
-      url: 'http://localhost:3000/general_journals'
+      url: $scope.dbURL + '/general_journals'
     }).success(function(data, status) {
       $scope.journal_details = data;
     });

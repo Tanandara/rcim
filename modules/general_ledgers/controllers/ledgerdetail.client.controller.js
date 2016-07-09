@@ -5,7 +5,7 @@ function($scope,$http){
   $scope.getLedgerDetail = function(){
       $http({
         method: 'GET',
-        url: 'http://localhost:3000/ledger_detail?q='
+        url: $scope.dbURL + '/ledger_detail?q='
       }).success(function(data, status) {
         $scope.ledger = data;
       });
